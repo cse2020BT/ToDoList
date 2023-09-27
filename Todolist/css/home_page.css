@@ -1,0 +1,86 @@
+*{
+    /* background-color: rgb(162, 245, 245); */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body{
+    overflow: auto;
+  }
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-transform: capitalize;
+    border-radius: 1px solid rgb(228, 9, 53);
+    box-shadow: 0 10px 500px 50px;
+  }
+#book-ticket{
+ color: crimson;
+}
+.carousel-item{
+    height: 400px;
+    width: 100%;
+  }
+.card{
+    background-color:  rgb(184, 255, 253);
+    color: crimson;
+  }
+.card .btn:hover{
+    background-color:darkseagreen;
+  }
+.form_image{
+    margin: 0 25%;
+  }
+#row{
+  margin-top: 30px;
+}
+.form-container{
+  margin-top: 5%;
+  margin-left: 10%;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid crimson;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px 5px crimson;
+  }
+.form-container input{
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  }
+.btn{
+  background: crimson;
+  border: 2px solid crimson;
+}
+.btn:hover{
+  background-color:green;
+  border: 2px solid black;
+}
+.review{
+  text-transform: capitalize;
+}
+.form_image{
+  margin-top: 30px;
+  border-radius: 10px;
+  border: 5px solid green;
+}
+
+.feed-col{
+  padding-left:30px ;
+  border: 1px solid green;
+  border-radius: 5px;
+  color: crimson;
+}
+
+.line,hr{
+  margin-top: 40px;
+  border: 1px solid red;
+}
+.footer .foot{
+  margin-left: 10%;
+}
+.footer h3{
+  margin-left: 30px;
+  text-transform: capitalize;
+  color: darkmagenta;
+}
